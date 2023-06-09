@@ -18,6 +18,7 @@ public class Board {
 	private int views;
 	private Date write_date;
 	private int team_seq;
+	private String teamname;
 	// Lombok API
 	
 }

@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="${cpath}/resources/css/style.css">
+<link rel="stylesheet" href="${cpath}/resources/CSS/community.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -156,8 +156,7 @@
 						<form id="pageForm" action="${cpath}/list" method="post">
 							<input type="hidden" id="page" name="page" value="${pm.cri.page}" />
 							<input type="hidden" id="type" name="type" value="${pm.cri.type}" />
-							<input type="hidden" id="keyword" name="keyword"
-								value="${pm.cri.keyword}" />
+							<input type="hidden" id="keyword" name="keyword" value="${pm.cri.keyword}" />
 						</form>
 						<!-- 페이징 리스트 출력 끝 -->
 						<c:if test="${!empty mvo}">

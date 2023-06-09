@@ -1,0 +1,79 @@
+#container {
+    width: 1300px;
+    overflow: hidden;
+    margin: 0 auto;
+    min-height: 800px;
+    padding: 50px 0;
+    
+}
+
+#container aside {
+    float: left;
+    width: 250px;
+    padding: 12px 0 0 14px;
+    margin-left: 20px;
+   
+}
+
+#container #contents {
+    position: relative;
+    float: right;
+    width: 900px;   
+}
+
+.select01 .btn_srch{
+    height: 26px;
+    border: 1px solid #990000;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.board {
+    float: left;
+    width: 700px;
+    margin-right: 27px;
+    height: 1000px;
+}
+
+.boardSearch {
+    position: relative;
+    height: 48px;
+    padding: 0 14px;
+    margin-bottom: 28px;
+    background: #fcfcfc;
+}
+
+.boardSearch .inputTxt{
+    padding: 0;
+    margin-top: 10px;
+    height: 26px;
+    border: 1px solid #c9cacf;
+}
+
+.photo img {
+    width: 154px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+.boardPhoto {
+    margin-bottom: 34px;
+    padding-top: 2px;
+    border-top: 2px solid #4c4f55;
+}
+.boardPhoto li {
+    position: relative;
+    overflow: hidden;
+    height: 1%;
+    padding: 15px 14px 0;
+    line-height: 16px;
+    border-bottom: 1px solid #c9cacf;
+}
+.boardPhoto li .txt {
+    float: right;
+    width: calc(100% - 169px);
+}
+
