@@ -96,7 +96,7 @@
 						<c:if test="${!empty mvo}">
 							<div class="card-body">
 		    					<form id="frm" action="${cpath}/reply" method="post">
-		    						<input type="hidden" name="board_seq" value="${vo.board_seq}"/>
+		    						<input type="hidden" id="board_seq" name="board_seq" value="${vo.board_seq}"/>
 		    						<input type="hidden" name="page" value="${cri.page}"/>
 		    						<input type="hidden" name="type" value="${cri.type}"/>
 		    						<input type="hidden" name="keyword" value="${cri.keyword}"/>

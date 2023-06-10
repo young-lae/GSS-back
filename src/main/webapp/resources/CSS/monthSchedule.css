@@ -1,0 +1,24 @@
+.schedulCalender {
+    width: 100%;
+    font-size: 11px;
+    line-height: 16px;
+    border-top: 2px solid #3f3f3f;
+    border-collapse: separate!important;
+    border-right: 1px solid #ddd;
+}
+.fc-toolbar-chunk {
+    display: flex;      
+    align-items: center;
+}
+.fc-scrollgrid th{
+   width : 45px;
+}
+.fc-scrollgrid tbody tr{
+   height : 135px
+}
+#contents{
+   height: 950px;
+}
+.schedulCalender{
+   height : 900px;
+}

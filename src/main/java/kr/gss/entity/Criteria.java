@@ -7,8 +7,11 @@ public class Criteria {
 	private int page; // 현재 페이지 번호
 	private int perPageNum; // 한페이지에 보여질 게시글의 수
 	// 검색 기능에 필요한 변수
-	private String type; // 이름(writer), 제목(title), 내용(content)
+	private String type;
 	private String keyword; // 검색어
+	private String teamname;
+	private String pos;
+	private int team_seq;
 	
 	public Criteria() {
 		this.page=1;

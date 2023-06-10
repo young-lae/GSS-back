@@ -11,10 +11,12 @@ import lombok.NoArgsConstructor;
 public class Player {
 	private int player_seq;
 	private String name;
-	private String image_path;
-	private int team_seq;
-	private String pos;
-	private int back_num;
-	private int salary;
+	private String birth;
+	private int age;
 	private String bodysize;
+	private String pos;
+	private String image_path;
+	private String teamname;
+	private int back_num;
+	private int salary;	
 }

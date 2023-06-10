@@ -14,10 +14,17 @@
 		</if>
 	</sql>
 	
+	<!-- 팀검색 sql 문 -->
+	<sql id="teamSearch">
+		<if test="type=='team_seq'">
+			where team_seq = #{team_seq}
+		</if>
+	</sql>
+	
 	<!-- 전체 게시물을 가져오는 SQL -->
 	<select id="getLists" resultType="kr.gss.entity.Board" parameterType="kr.gss.entity.Criteria">
 		select * from tb_board <include refid="search" />
-		order by board_seq asc
+		order by board_seq desc
 		limit #{pageStart}, #{perPageNum}
 	</select>
 	
@@ -25,6 +32,11 @@
 	<insert id="register" parameterType="kr.gss.entity.Board">
 		insert into tb_board(title, content, nick, views) 
 		values(#{title}, #{content}, #{nick}, 0)
+	</insert>
+	<!-- 팀순번이 들어있는 게시물 등록SQL -->
+	<insert id="teamRegister" parameterType="kr.gss.entity.Board">
+		insert into tb_board(title, content, nick, views, team_seq) 
+		values(#{title}, #{content}, #{nick}, 0, #{team_seq})
 	</insert>
 	
 	<select id="get" resultType="kr.gss.entity.Board">
@@ -51,5 +63,11 @@
 		select * from tb_reply
 		where board_seq = #{board_seq}
 		order by reply_seq desc
+	</select>
+	
+	<!-- 팀에 해당하는 게시글 -->
+	<select id="getTeamLists" resultType="kr.gss.entity.Board" parameterType="kr.gss.entity.Criteria">
+		select * from tb_board
+		<include refid="teamSearch"/>
 	</select>
 </mapper>
