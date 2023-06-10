@@ -1,40 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
                         	
+=======
+                            	
+    
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
     
     
     
     
     
     <wb-module deploy-name="controller-1.0.0-BUILD-SNAPSHOT">
+<<<<<<< HEAD
                                                         
+=======
+                                                                
+        
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
         
         
         
         
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+<<<<<<< HEAD
                                                 		
+=======
+                                                        		
+        
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
         
         
         
         
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+<<<<<<< HEAD
                                                 		
+=======
+                                                        		
+        
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
         
         
         
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+<<<<<<< HEAD
                                                 		
+=======
+                                                        		
+        
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
         
         
         
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+<<<<<<< HEAD
                                                 		
+=======
+                                                        		
+        
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
         
         
         
@@ -42,14 +72,24 @@
         
         <property name="java-output-path" value="target/classes"/>
         <property name="context-root" value="controller"/>
+<<<<<<< HEAD
                                                 	
+=======
+                                                        	
+    
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
     
     
     
     
     
     </wb-module>
+<<<<<<< HEAD
                         
+=======
+                            
+
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 
 
 

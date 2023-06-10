@@ -19,8 +19,11 @@
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8baa64f319aa790ee9e2e48123cf3e4e"></script>
 	<!--머리다리 CSS-->
     <link rel="stylesheet" href="${cpath}/resources/CSS/header_footer.css">
+<<<<<<< HEAD
     <!--다른 페이지 가져다 쓰는거-->
     <link rel="stylesheet" href="${cpath}/resources/CSS/schedule.css">
+=======
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
     <!--커뮤니티 CSS-->
     <link rel="stylesheet" href="${cpath}/resources/CSS/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">

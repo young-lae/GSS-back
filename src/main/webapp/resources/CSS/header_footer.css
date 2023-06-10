@@ -8,6 +8,12 @@
 *{
   font-family:'GmarketSansMedium';
 }
+<<<<<<< HEAD
+=======
+      body{
+        background-color: #f3f3f3 !important;
+      }
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -22,10 +28,19 @@
           font-size: 3.5rem;
         }
       }
+<<<<<<< HEAD
       body{
         background-color: #f3f3f3 !important;
       }
 
+=======
+      .container_wrapper .d-flex{
+      border-bottom : 1px solid;
+      border-color : black;
+      }
+
+
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
       .b-example-divider {
         height: 3rem;
         background-color: rgba(0, 0, 0, .1);

@@ -85,9 +85,15 @@
 	<section id="container">
 		<div class="large">
 			<aside>
+<<<<<<< HEAD
 				<h3 style="font-size: 20px; margin: 0 0 30px 15px; padding-bottom: 25px;">일정/결과</h3>
 				<ul>
 					<li>스마트인재개발원</li>
+=======
+				<h3 style="font-size: 20px; margin: 0 0 30px 15px; padding-bottom: 25px;">커뮤니티</h3>
+				<ul>
+					<li>커뮤니티</li>
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 				</ul>
 			</aside>
 			<div id="contents">
@@ -213,7 +219,11 @@
 				</div>
 				<!-- 페이징 리스트 출력 시작 -->
 				<div class="page">
+<<<<<<< HEAD
 					<ul class="pagination paging" style="margin: 20px 0">
+=======
+					<ul class="pagination justify-content-center paging" style="margin: 20px 0">
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 						<c:if test="${pm.prev}">
 							<li class="arrow left">
 								<a class="page-link" href="${pm.startPage-1}">◀PREV</a>

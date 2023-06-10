@@ -49,7 +49,11 @@
 			<!-- c:if문 사용하여 사용자가 로그인한 상태인지 아닌지 확인 후 출력 -->
 			<c:if test="${empty mvo}">
 				<form id="frm" class="col-md-3 text-end">
+<<<<<<< HEAD
 					<button data-btn="login" type="button" class="btn btn-outline-primary me-2" style="color: #990000 !important; border-color: #990000 !important">로그인</button>
+=======
+					<button data-btn="login" type="button" class="btn btn-outline-primary me-2" style="border-color: #990000 !important">로그인</button>
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 					<button data-btn="join" type="button" class="btn btn-primary" style="background-color: #990000 !important; border-color: #990000 !important">회원가입</button>
 				</form>
 			</c:if>

@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 .page{
     border: #990000 100px;
     text-align: center;
     width: 100%;
     margin: auto;
+=======
+.pagination {
+	--bs-pagination-active-bg : #990000 !important;
+	--bs-pagination-active-border-color : #990000 !important;
+	--bs-pagination-focus-box-shadow: #990000 !important;
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 }
 
 .paging{

@@ -104,3 +104,16 @@
 .tab-schedule li a:focus{
     background-color: #990000;
 }
+<<<<<<< HEAD
+=======
+.btn{
+    background-color: #990000 !important;
+    --bs-btn-hover-border-color : #990000 !important;
+    --bs-btn-border-color : #990000 !important;
+    --bs-btn-hover-bg: #990000 !important;
+}
+.btn button:active{
+	box-shadow : #990000 !important;
+}
+
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8

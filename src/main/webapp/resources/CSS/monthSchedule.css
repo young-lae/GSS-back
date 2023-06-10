@@ -9,6 +9,7 @@
 .fc-toolbar-chunk {
     display: flex;      
     align-items: center;
+<<<<<<< HEAD
 }
 .fc-scrollgrid th{
    width : 45px;
@@ -21,4 +22,43 @@
 }
 .schedulCalender{
    height : 900px;
+=======
+     
+}
+.fc-scrollgrid th{
+	width : 45px;
+}
+.fc-scrollgrid tbody tr{
+	height : 135px
+}
+#contents{
+	height: 1100px;
+}
+.schedulCalender{
+	height : 1000px;
+}
+a{
+	text-decoration : none !important; 
+	color :black !important;
+}
+.fc-h-event{
+	height : 25px;
+	background-color : #ffffff !important;
+	border : #ffffff  !important;
+}
+.fc-header-toolbar{
+	margin-top : 25px !important;
+	margin-bottom : 50px !important;
+}
+.schedulCalender{
+	border : 0px !important;
+}
+.fc-daygrid-event-harness{
+	margin : 1px 0;
+}
+.fc-event-title{
+	color : black;
+	font-size : 15px;
+	padding : 5px !important;
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 }

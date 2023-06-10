@@ -27,5 +27,12 @@ a:visited{
     text-decoration: none;
 }
 a{
+<<<<<<< HEAD
     text-decoration: none;
 }
+=======
+    text-decoration: none !important;
+    color : black !important;
+}
+
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8

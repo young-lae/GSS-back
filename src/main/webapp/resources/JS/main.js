@@ -3,6 +3,11 @@ const sliderImg = document.querySelector(".slider__img");           //보여지�
 const sliderInner = document.querySelector(".slider__inner");       //움직이는 영역
 const slider = document.querySelectorAll(".slider");                //개별 이미지
 
+<<<<<<< HEAD
+=======
+let currentIndex = 0;                                           //현재 이미지
+let sliderCount = slider.length;
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
 let interval = 5000;                             //현재 이미지
 let sliderWidth = sliderImg.offsetWidth;                            //이미지 넓이값 구하기
 let sliderClone = sliderInner.firstElementChild.cloneNode(true);    //첫번째 이미지를 복사
@@ -43,7 +48,11 @@ var slides = document.querySelector('.wrapper_second .schedule'),
             slide = document.querySelectorAll('.wrapper_second .schedule li'),
             currentIdx = 0,
             slideWidth1 = 1250,
+<<<<<<< HEAD
             slideMargin = 63.15,
+=======
+            slideMargin = 57,
+>>>>>>> e028cefd44a61f496d11ca2990e72da5510a93f8
             prevBtn = document.querySelector('.wrapper_second .prev'),
             nextBtn = document.querySelector('.wrapper_second .next');
 
